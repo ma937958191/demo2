@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${sectionName}"></title>
+
+    <!--z这里要加/返回请求不在用一个目录-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/communtiy.css">
+    <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+    <script src="/js/bootstrap.min.js" type="application/javascript"></script>
+
+</head>
+<body>
+<div th:insert="~{navigation::nav}"></div>
+<div class="container-fluid" th:class="main">
+    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+        <h2> <span th:text="${sectionName}" class="  glyphicon glyphicon-plus" aria-hidden="true"></span></h2>
+        <hr><!--分割线-->
+
+    </div>
+    <!--发布问题模块结束--->
+    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <div class="list-group">
+            <a href="/profile/quesion" th:class="${section=='questions'}?'active list-group-item':'list-group-item'">我的问题</a>
+            <a href="/profile/message" th:class="${section=='questions'}?'active list-group-item':'list-group-item'">个人资料</a>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    <!--引入bootstrap-->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/communtiy.css">
+    <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js" type="application/javascript"></script>
+</head>
+<body>
+<div th:insert="~{navigation::nav}"></div>
+
+<!--col-lg-9一般只需要写这个，调整位置，后面不变-->
+<div class="container-fluid" th:class="main">
+    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+        <h2> <span class="  glyphicon glyphicon-plus" aria-hidden="true"></span>发起</h2>
+        <hr><!--分割线-->
+        <form action="/publish" method="post">
+            <div class="form-group">
+                <label for="title">问题标题</label>
+                <input type="text" th:value="${title}" class="form-control" id="title" name="title"  placeholder="问题标题">
+            </div>
+
+            <div class="form-group">
+                <label for="description">问题补充</label>
+                <textarea th:text="${description}" class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="tag">添加标签</label>
+                <input type="text" th:value="${tag}" class="form-control" id="tag" name="tag" placeholder="输入标签，以逗号隔开">
+            </div>
+            <span class="alert alert-danger" th:text="${error}" th:if="${error!=null}"></span>
+
+            <button type="submit" class="btn btn-success btn-publish" >开始发布</button>
+        </form>
+    </div>
+    <!--发布问题模块结束--->
+    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+        <h3>问题发起指南</h3>
+        .qwjdfiqwjdqwd
+        .sdakdoqpdkowd
+        .dqwdkoq;wkd;oqwk
+    </div>
+</div>
+
+
+</body>
+</html>

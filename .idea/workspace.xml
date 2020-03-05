@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a25c109f-6123-4353-a354-891d2b0d9df1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="communtiy: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XLAleUUNde96chWuPJjuKPGlEd" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWork\communtiy\src\main\resources\static" />
+      <recent name="D:\ideaWork\communtiy\src\main\resources\images" />
+      <recent name="D:\ideaWork\communtiy\src\main\resources" />
+      <recent name="D:\ideaWork\communtiy\src\main\resources\static\js" />
+      <recent name="D:\ideaWork\communtiy\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CommuntiyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="communtiy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="life.mashuai.communtiy.CommuntiyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a25c109f-6123-4353-a354-891d2b0d9df1" name="Default Changelist" comment="" />
+      <created>1580815153924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580815153924</updated>
+      <workItem from="1580815158974" duration="3363000" />
+      <workItem from="1580886011941" duration="6456000" />
+      <workItem from="1580965294152" duration="9636000" />
+      <workItem from="1580984186253" duration="4662000" />
+      <workItem from="1581057208196" duration="11735000" />
+      <workItem from="1581140055872" duration="16483000" />
+      <workItem from="1581243309497" duration="6374000" />
+      <workItem from="1581314710892" duration="9978000" />
+      <workItem from="1581400522023" duration="6156000" />
+      <workItem from="1581408495174" duration="193000" />
+      <workItem from="1581408708813" duration="11326000" />
+      <workItem from="1581486693938" duration="11306000" />
+      <workItem from="1581573933263" duration="9224000" />
+      <workItem from="1581658164923" duration="7944000" />
+      <workItem from="1581740460357" duration="7457000" />
+      <workItem from="1581748811385" duration="1496000" />
+      <workItem from="1581750427622" duration="4081000" />
+      <workItem from="1581834478474" duration="6086000" />
+      <workItem from="1581899721494" duration="15920000" />
+      <workItem from="1581933119249" duration="336000" />
+      <workItem from="1581934025509" duration="635000" />
+      <workItem from="1582007641544" duration="3722000" />
+      <workItem from="1582014214763" duration="336000" />
+      <workItem from="1582015536011" duration="384000" />
+      <workItem from="1582367000070" duration="528000" />
+      <workItem from="1582618845238" duration="202000" />
+      <workItem from="1582620144811" duration="16000" />
+      <workItem from="1583113884903" duration="297000" />
+      <workItem from="1583379071170" duration="395000" />
+      <workItem from="1583384193685" duration="1671000" />
+      <workItem from="1583392944940" duration="588000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

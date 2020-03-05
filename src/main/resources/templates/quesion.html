@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--z这里要加/返回请求不在用一个目录-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/communtiy.css">
+    <script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script>
+    <script src="/js/bootstrap.min.js" type="application/javascript"></script>
+</head>
+<body>
+    <div th:insert="~{navigation::nav}"></div>
+    <!--col-lg-9一般只需要写这个，调整位置，后面不变-->
+    <div class="container-fluid" th:class="main">
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+            <h2> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>贴子</h2>
+            <hr><!--分割线-->
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                        <img class="media-object" th:src="${quesionUser.getUser().getAvatar_url()}" style="width: 50px;height: 50px;">
+                        发帖人<span th:text="${quesionUser.getUser().getName()}"></span>： 时间。<span th:text="${quesionUser.getGmt_creat()}"></span>：  . 阅读数.<span th:text="${quesionUser.getView_count()}"></span>： .
+                    </a>
+                </div>
+                <hr>
+                <div class="media-body">
+
+                    <h4 class="media-heading">文章的内容</span></h4>
+                    <span th:text="${quesionUser.getTitle()}"></span>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <!-- Buttons -->
+                    </div>
+                    <input type="text" class="form-control" aria-label="...">
+                </div>
+
+            </div>
+            <hr>
+
+
+        </div>
+
+
+        <!--发布问题模块结束--->
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+            <h3>回复帖子需要注意的</h3>
+            .qwjdfiqwjdqwd
+            .sdakdoqpdkowd
+            .dqwdkoq;wkd;oqwk
+        </div>
+    </div>
+</body>
+</html>
